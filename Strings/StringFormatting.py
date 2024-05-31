@@ -39,7 +39,6 @@ def print_formatted(number):
         '''
         bina = bin(i)[2:]
         print(deci.rjust(width),octa.rjust(width),hexa.rjust(width),bina.rjust(width))
-    # your code goes here
 
 if __name__ == '__main__':
     n = int(input())
